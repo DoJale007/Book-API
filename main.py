@@ -3,6 +3,7 @@ from fastapi import FastAPI, Body
 
 app = FastAPI()
 
+
 BOOKS = [
     {
         "title": "Weather & Climate",
